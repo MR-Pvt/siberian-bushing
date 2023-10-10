@@ -1,0 +1,55 @@
+{% extends 'website/base.html' %}
+{% load static %}
+
+
+{% block content %}
+
+    <!-- site__body -->
+    <div class="site__body">
+        <div class="block-space block-space--layout--spaceship-ledge-height"></div>
+        <div class="block">
+            <div class="container">
+                <div class="document">
+                    <div class="document__header">
+                        <h1 class="document__title">Warrenty</h1>
+                        <div class="document__subtitle">This Agreement was last modified on 27 May 2018.</div>
+                    </div>
+                    <div class="document__content card">
+                        <div class="typography">
+                            <h2>Warrenty Period</h2>
+                            <p>
+                                Siberian Bushing warrants its products against defects in workmanship or material for 3 years (36 months).
+                            </p>
+                            <h2>Warranty restrictions:</h2>
+                            <p>
+                                Products that have been incorrectly installed are not covered by warranty.<br>
+
+                                Warranty replacement covers only the product.<br>
+                                
+                                Labor claims, time loss, or freight / shipment charges are not covered by warranty.                            </p>
+                            
+                            <h2>Warranty claim procedure: </h2>
+
+                            <ol>
+                                <li>>Download our “Warranty claim” form Warranty claim</li>
+                                <li>Fill out “Warranty claim”</li>
+                                <li>Send the completed and signed “Warranty claim” scan file (PDF or JPG) together with the photo of defected part to the below email address:</li>
+                                info@siberianbushing.com
+                                <li>Wait for the reply with information that your warranty case is in progress</li>
+                                <li>Wait for the reply with our Warranty Manager’s conclusion on your case (usually it takes couple of days since reception of completed “Warranty claim”)</li>
+                                <li>Receive new tracking number for the package with replacement parts and wait for the parts to be delivered by international parcel service</li>                              
+                            </ol>
+
+                            <div class="document__signature">
+                                <img src='{% static "images/logo.png" %}' width="160" height="55" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block-space block-space--layout--before-footer"></div>
+    </div>
+    <!-- site__body / end -->
+
+{% endblock %}

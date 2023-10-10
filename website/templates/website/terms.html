@@ -1,0 +1,84 @@
+{% extends 'website/base.html' %}
+{% load static %}
+
+
+{% block content %}
+
+    <!-- site__body -->
+    <div class="site__body">
+        <div class="block-space block-space--layout--spaceship-ledge-height"></div>
+        <div class="block">
+            <div class="container">
+                <div class="document">
+                    <div class="document__header">
+                        <h1 class="document__title">Terms of payment and delivery</h1>
+                        <div class="document__subtitle">This Agreement was last modified on 27 May 2018.</div>
+                    </div>
+                    <div class="document__content card">
+                        <div class="typography">
+                            <h2>Order payment options</h2>
+                            <p>
+                                You can pay for an order using a credit/debit card, PayPal or direct Bank transfer. Customers from some countries are issued a problems during payment process, please contact us and we help you to find another payment solutions.
+                            </p>
+                            <h2>Delivery</h2>
+                            <p>Orders may be delivered to the buyer by the shippings methods mentioned below:
+                            </p>
+
+                            <ol>
+                                <li>
+                                    <strong>Russian Post</strong> —  Estimated delivery time is about 20-45 days depending of country.
+                                </li>
+                                <li>
+                                    <strong>EMS expedited mail.</strong> — Estimated delivery time is about 14-24 days depending of country.
+                                </li>
+                                <li>
+                                    <strong>DHL Express</strong> — Estimated delivery time is about 3-15 days depending of country.
+                                </li>
+                            </ol>
+
+                            <p>Delivery is carried out throughout the Worldwide excluding Russia and the countries of the Customs Union.
+                            </p>
+                            <p>
+                                Seller sends your paid orders during 3 days after payment date.
+                            </p>
+
+                            <h2>Return policy</h2>
+                            <p>
+                                Return of goods by the buyer at the expense of the buyer. Refunds for such returns occur upon receipt of the goods by the seller. The buyer is solely responsible for receiving the parcel in the country of destination. In the case of return of the parcel marked "not claimed" the cost of re-shipment is paid by the buyer additionally.
+                            </p>
+                            <p>
+                                In the event of a warranty situation, the buyer follows the instructions described on the page "Warranty" and sends the seller a warranty act with a request to replace the part or return its value.
+                            </p>
+                            
+                            <h2>Security policy</h2>
+
+                            <p>
+                                We understand that the safety of your personal information is extremely important to you. We put all our efforts to protect your personal data and card information from unauthorized access.
+                            </p>
+                            <p>
+                                All card payments (including the transmission of your card number) are processed using the e-payment gateway, which has completed international certification.
+                            </p>
+                            <p>
+                                This means that your confidential information (card details, registration data, etc.) are not seen by the online store, their processing is completely protected and no one, including our Online Store, may gain access to the client's personal or banking details.
+                            </p>
+                            <p>
+                                The security of processing online payments is guaranteed by full observance of the Payment Card Industry Data Security Standard (PCI DSS) designed and implemented by VISA and MasterCard payment associations to ensure the safeguarding of the cardholder's personal details. The card data transmission technology used guarantees the security of online payments by the use of TLS (Transport Layer Security) protocol, Verified by Visa, MasterCard Secure Code and closed bank networks that have the highest level of protection.
+                            </p>
+
+                            <p>
+                                Refunds are made to the same card account from which the payment was made.
+                            </p>
+                            <p>For information about how to contact us, please visit our <a href="contact-us.html">contact page</a>.</p>
+                            <div class="document__signature">
+                                <img src='{% static "images/logo.png" %}' width="160" height="55" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block-space block-space--layout--before-footer"></div>
+    </div>
+    <!-- site__body / end -->
+
+{% endblock %}
